@@ -3,14 +3,11 @@
 ## Problem Statement:
 To implement a ring like in Green Lantern which lights up when you wear it up.
 
-## Issues with the existing implementation:
-It is implemented using a push button such that it triggers on when you wear it. This is painful as the push button constantly rubs our skin.
-
-## Constraints:
-Size and power. It should be small as the entire circuitry should be within the ring.
+## Current issues and Constraints:
+It is implemented using a push button such that it triggers on when you wear it. This is painful as the push button constantly rubs our skin. Size and power are constraints. It should be small as the entire circuitry should be within the ring.
 
 ## My changes in implementation:
-I would suggest that an IR transmitter receiver pair be used. We can reduce the size of the pins and have the be a reasonable size. It will be bigger than normal rings but manageable. The transmitter and receiver will be diametrically opposite to each other. The LED will turn on when the receiver does not receive a signal (meaning that a finger is obstructing it) and will be off when the receiver does receive a signal.
+I would suggest that a small spring loaded metal contact be used instead of a pushbutton. The ring will be slighly smaller than your finger so when you wear it, the metal contacts will touch and complete the circuit. This will be more comfortable than a pushbutton because a pushbutton will constantly apply pressure on the finger but with a metal contact the force will be distributed. This will also be cheap and the circuit will be simple. A Lithium ion cell will power it.
 
 # PROJECT 2
 ## Problem Statement:
