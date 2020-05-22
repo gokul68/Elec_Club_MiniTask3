@@ -26,3 +26,18 @@ I would suggest using an Arduino MEGA if the budget permits, as we will require 
 
 ## Wiring:
 Since we have 18 motors, there will be a lot of wiring and we will have to prevent tangling of wires. 
+
+# PROJECT 3
+## Problem Statement: 
+An autonomous self-contained robot that can get to the centre of the maze in the shortest possible time.
+
+## Components required: 
+1. Ultrasonic sensor (HC-SR04) to detect obstacles (like the walls) so that it can turn.
+
+2. Time of flight sensor which gives the distance travelled by the bot.
+
+3. 6V DC Motor and Motor drivers.
+
+4. Microcontroller: I would suggest using the Arduino Uno as it is cheap and within the size range and is not too heavy.
+
+5. AA Batteries and a battery pack to power the Arduino and the motors.
